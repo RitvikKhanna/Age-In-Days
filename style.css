@@ -1,0 +1,53 @@
+*{
+  font-family: 'Poppins',sans-serif !important;
+  padding: 5px;
+  margin: 5px;
+}
+
+#error{
+  color: red;
+}
+
+h1{
+  color: darkblue;
+
+}
+
+
+#leapYear{
+  display: none;
+}
+
+.age{
+  margin-top: 20px;
+  display: none;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero{
+  text-align: center;
+}
+
+.wrapper h1{
+  margin:auto !important;
+  vertical-align:middle !important;
+}
+
+#age {
+  margin-top: 15px;
+  font-size: 2em !important;
+  font-weight: bold;
+}
+
+p{
+  font-size: 1.2em !important;
+}
+
+.wrapper{
+  border: 1px solid black;
+}
+
+button{
+  margin-left:5px !important;
+}

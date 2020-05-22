@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Age in Days</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid wrapper">
+      <div class="hero">
+        <h1 class="display-4" >Your Age in Days</h1>
+        <p class="lead info">This will calculate your current age in number of days starting from the 1st January after the year you were born in till Dec 31st 2019.</p>
+          <p id="error" class="lead info">If you're born after 1st January 2019, this will not work!</p>
+        <p class="lead info">This takes into account leap years as well!</p>
+        <button onclick="ageinDays()" type="button" id="click" class="btn btn-primary btn-lg" name="button">Click Me!</button>
+        <button type="button" onclick="reset()" id="reset" class="btn btn-dark btn-lg" name="button">Reset</button>
+      </div>
+      <div id = "text" class="age">
+        <div>
+          <p class="lead" id="ageDisp"></p>
+        </div>
+        <div>
+          <p id="age" class="lead"></p>
+        </div>
+        <div id="leapYear">
+          <p id="leapYearText" class="lead"></p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./index.js">
+    </script>
+  </body>
+</html>
